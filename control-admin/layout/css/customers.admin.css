@@ -1,0 +1,351 @@
+
+/* Start Rules */
+body{
+    font-size: 18px
+}
+
+
+.tagsinput{
+    width: 100% !important;
+} 
+/* End Rules */
+
+/* Start Header */
+.welcome h2 {
+    padding-top: 22px;
+    text-align: center!important;
+    font-weight: 800;
+    color: #616161;
+    
+}
+
+.welcome p{
+    padding-top: 11px;
+    line-height: 1.5;
+    text-align: center;
+    color: #777;
+}
+
+/* End Header*/
+
+/* Start Images Forms */
+
+.img-control{
+    margin-top: 40px
+}
+
+/* End Images Forms */
+
+
+/* Start Form */
+.form-cont{
+    margin-top: 75px
+}
+.form-cont h2{
+    color: #505050;
+    font-weight: 900;
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px
+}
+input:not([type="submit"]){
+    padding-left: 67px;
+}
+
+.input-con{
+    position: relative;
+    overflow: hidden
+}
+.input-con .i1{
+    position: absolute;
+    background-color: #007bff;
+    width: 50px;
+    text-align: center;
+    height: 37px;
+    line-height: 37px;
+    color: #fdfdfd;
+    font-size: 18px;
+    font-weight: 900;
+
+}
+.form-cont .forget{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #737373;
+}
+
+/* End Form */
+
+
+/*  Start Navbar  With Bootstrap*/
+.navbar{
+    padding: 12px;
+}
+
+.navbar-brand{
+    margin-right: 4rem;
+}
+.dropdown{
+    cursor: pointer;
+}
+.dropdown-menu{
+    left: -50px;
+    padding: 5px 10px 5px 0px;
+    margin: 7px 0;
+    border-radius: none;
+}
+/* End navbar */
+
+/* Start Dashboard Page */
+.dashboard{
+    margin-top: 30px;
+}
+.dashboard h2, .icon-dash{
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+    display: inline-block;
+}
+.icon-dash{
+    margin-right: 2px;
+    font-size: 28px;
+}
+.dashboard h2{
+    font-size: 26px;
+    margin-bottom: 25px
+}
+.stat{
+    margin-top: 50px;
+}
+.info{
+    background: #50ceff;
+    padding: 30px;
+    color: #fff;
+    box-shadow: 0 3px 10px #a0a0a0;
+}
+.info a{
+    color: #fff;
+}
+.info a:hover{
+    text-decoration: none
+}
+.icon-custom{
+    margin-right: 20px;
+    font-size: 50px !important
+}
+.box-2{
+    
+    background: #fba84c;
+}
+.box-3{
+    background: #ff8484;
+}
+.box-4{
+    background: #b761ff;
+}
+.inline-blok{
+    display: inline-block;
+    margin-bottom: -8px;
+    font-size: 30px
+}
+.cart-custom{
+    margin-bottom: 50px;
+    margin-top: 50px
+}
+.cart-custom .card-header h5{
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+}
+.cart-custom .ul-cart li{
+    padding: 10px;
+    margin-bottom: 5px;
+
+}
+.cart-custom .ul-cart li:nth-child(odd) {
+    background-color: #EEE;
+}
+/* End Dashboard Page */
+
+/*   Start Customer Page    */
+.custom-form{
+    padding-top: 35px;
+    position: relative;
+}
+.custom-form h2{
+    color: #8e8e8e;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 30px;
+}
+.custom-form .col-form-label{
+    margin-right: -55px;
+}
+
+.custom-form .input-con .i1{
+    width: 60px;
+    height: 47px;
+    line-height: 44px;
+    font-size: 21px;
+}
+.custom-form input:not([type="submit"]){
+    border-radius: 0;
+    margin-bottom: 4px;
+}
+.custom-form .col-form-label {
+    color: #8e8e8e;
+    font-weight: bold;
+}
+.custom-form .pass {
+    position: absolute;
+    right: 22px;
+    top: 7px;
+    font-size: 23px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.custom-form .pass:hover{
+    color: #007bff;
+}
+.table .table-h{
+    display: block;
+    width: 120px;
+}
+.table .user-mage .img-fluid{
+    max-width: 70%;
+}
+.table .table-d{
+    display: block;
+    max-width: max-content;
+    margin: 40px auto;
+}
+.table .act {
+    margin-left: 5px
+}
+
+.table tr:nth-child(odd){
+    background: #EEE
+}
+/* End Customer Page */
+
+/* Start Department Page */
+.links a{
+    color: rgb(83, 83, 83);
+}
+.links a:hover{
+   text-decoration: none
+}
+.links .active{
+    font-weight: bold;
+    color: red
+ }
+ .custom-label label{
+     cursor: pointer;
+     font-size: 16px;
+     color:#fff;
+     line-height: normal;
+     margin-top: -1px
+ }
+/* End Department Page */
+.custom-item .input-con .i1{
+    font-size: 25px
+}
+.custom-form select{
+    cursor: pointer;
+}
+/* Start Items Page */
+
+/* Start Comment Table */
+.comment-table td .control-span{
+    margin: 49px auto;
+    display: inline-block;
+    width: max-content;
+}
+.comment-table td p{
+    max-height: 90px;
+    overflow: auto;
+    margin: 30px auto
+}
+.comment-table .my-button{
+    width: 100%;
+    margin: 5px;
+}
+.item .img-fluid{
+    max-width: 101px;
+}
+.item td{
+    vertical-align: text-top;
+}
+.not-vertical{
+    vertical-align: middle !important;
+}
+/* End Comment Table */
+
+/*  
+
+    Media Query For Admin 
+
+*/
+
+
+/* Smart Phons */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+/* Start Images Forms */
+
+.img-control{
+    margin-top: 0px;
+    margin-left: 0px
+    }
+
+/* Start Form */
+.form-cont{
+    margin-top: 0px
+}
+.form-cont h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.form-cont .forget{
+    margin-bottom: 20px
+}
+.margin-btn{
+    margin-bottom: 5px
+}
+
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/* Start Images Forms */
+.img-control{
+    margin-top: 0px;
+    margin-left: 0px
+    }
+/* Start Form From edit  */
+    .custom-form .col-form-label{
+        margin-right: 10px;
+    }
+    .margin-btn{
+        margin-bottom: 5px
+    }
+
+}
+
+/* Meduam Screen */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/* Start Form From edit  */
+.custom-form .col-form-label{
+    margin-right: 15px;
+}
+.margin-btn{
+    margin-bottom: 5px
+}
+
+}
+
+/* End Media Query For Admin */
